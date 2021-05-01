@@ -7,7 +7,6 @@ data/
 .venv/
 
 =======
-.env
 >>>>>>> 33467806ee0a2acf79010f69943fc4fc496d52bd
 __pycache__/
 *.py[cod]
