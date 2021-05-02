@@ -58,6 +58,7 @@ jobs:
           username: ${{ secrets.USER }}
           key: ${{ secrets.SSH_KEY }}
           passphrase: ${{ secrets.PASSPHRASE }}
+          rm: true
           source: ".env,docker-compose.yaml,nginx/default.conf"
           target: "docker_files"
       - name: executing remote ssh commands to deploy
