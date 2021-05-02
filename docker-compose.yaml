@@ -8,7 +8,7 @@ services:
       - postgres_data:/var/lib/postgresql/data/
 
     env_file:
-      - ./docker_files/.env
+      - ./.env
 
   web:
     image: greg720716/yamdb_final:latest
@@ -21,7 +21,7 @@ services:
       - db
 
     env_file:
-      - ./docker_files/.env
+      - ./.env
 
   nginx:
     image: nginx:1.19.3
@@ -30,7 +30,7 @@ services:
       - "80:80"
 
     volumes:
-      - ./docker_files/nginx/default.conf:/etc/nginx/conf.d/default.conf
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
       - static_value:/var/html/static/
       - media_value:/var/html/media/
 
