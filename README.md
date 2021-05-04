@@ -1,5 +1,4 @@
-![Image of GitHub Action]
-(https://github.com/greg160772/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+![Image of GitHub Actions](https://github.com/greg160772/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 # *Проект YamDB*
 Проект создает API интерфейс для управление базой данных произведений. Произведения делятся на категории: «Книги», «Фильмы», «Музыка». К произведениям можно оставлять отзывы. Пользователи так же могут комментировать оставленные отзывы и выставлять произведениям оценки.
 
